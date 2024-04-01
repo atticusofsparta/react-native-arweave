@@ -1,27 +1,30 @@
 {
   "expo": {
+    "jsEngine": "jsc",
     "name": "react-native-arweave",
     "slug": "react-native-arweave",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1e1e1e"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.reactnativearweave"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#1e1e1e"
+      },
+      "package": "com.anonymous.reactnativearweave"
     },
     "web": {
       "favicon": "./assets/favicon.png"
